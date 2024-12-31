@@ -1,7 +1,8 @@
 import { Outlet } from "react-router-dom";
+import styled from "styled-components";
+
 import SideBar from "./SideBar";
 import Header from "./Header";
-import styled from "styled-components";
 
 const Main = styled.main`
   padding: 4rem 4.8rem 6.4rem;
