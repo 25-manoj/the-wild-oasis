@@ -42,6 +42,7 @@ function Filter({ filterField, options }) {
     searchParams.set(filterField, value);
     setSearchParams(searchParams);
   }
+
   return (
     <StyledFilter>
       {options.map((option) => (
